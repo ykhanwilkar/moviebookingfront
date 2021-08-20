@@ -1,0 +1,14 @@
+.city-img {
+    height: 100px;
+    width: 100px;
+}
+
+.city-element {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.city-element:hover{
+    transform: scale(1.4);
+}

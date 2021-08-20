@@ -1,0 +1,4 @@
+<div>
+    <app-city-list *ngFor="let city of cities" [city]="city"
+    (onClickGetMovies)="getMovies(city)"></app-city-list>
+</div>
